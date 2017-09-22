@@ -1,0 +1,261 @@
+*{
+  /*outline: 2px solid red;*/
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  height: 2000px;
+  background: #0f62b2;
+}
+
+.contentContainer{
+  margin: 0px auto;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 120vh;
+  /*background-image: url(../images/spaceHWBCD.jpg);
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 150% auto;
+  background-repeat: no-repeat;*/
+  /*overflow: hidden;*/
+  padding: 0px;
+}
+
+.parallaxLayer{
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.parallaxLayer > img{
+  width: 100%;
+  height: auto;
+}
+
+#titleGraphic{
+  text-align: center;
+}
+
+#pageTitle{
+  opacity: 1;
+  width: 70%;
+  height: auto;
+  transition: all .4s ease-in-out;
+}
+
+#pageTitle.scrolling{
+  opacity: 0;
+  transition: all .4s ease-in-out;
+}
+
+#parallaxL1{
+  position: relative;
+  bottom: 5%;
+}
+
+#parallaxL2{
+  width: 90%;
+  height: auto;
+}
+
+#parallaxL3{
+  width: 110%;
+  height: auto;
+  position: relative;
+  bottom: 15%;
+}
+
+#parallaxL4{
+  position: relative;
+  bottom: 15%;
+}
+
+#parallaxL5{
+  width: 130%;
+  height: auto;
+  position: relative;
+  right: 35%;
+}
+
+.logoWrapper{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+#effectLogo{
+  position: relative;
+  bottom: 15%;
+  width: 100%;
+  height: auto;
+  outline: 2px dotted yellow;
+  opacity: 0;
+  transition: all .6s ease-in-out;
+  height: auto;
+  position: relative;
+  bottom: 13%;
+  position: fixed;
+  top: -15%;
+}
+
+#effectLogo.scrolling{
+  opacity: .8;
+  transition: all .6s ease-in-out;
+  width: 10%;
+  height: auto;
+  position: fixed;
+  top: 0px;
+}
+
+#logo{
+  opacity: 0;
+  transition: all .4s ease-in-out;
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 13%;
+  position: fixed;
+  top: -15%;
+}
+
+#logo.scrolling{
+  opacity: .8;
+  transition: all .4s ease-in-out;
+  width: 10%;
+  height: auto;
+  position: fixed;
+  top: 0px;
+}
+
+.nav{
+  position: fixed;
+  bottom: 0px;
+  /*position: absolute;
+  bottom: 0px;*/
+  width: 100%;
+  height: 30px;
+  background: rgba(0, 0, 0, .6);
+  /*background: rgba(23,34,50, .7);*/
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+#navRMSLogo{
+  opacity: 0;
+  transition: all .4s ease-in-out;
+}
+
+#navRMSLogo.scrolling{
+  opacity: 1;
+  transition: all .4s ease-in-out;
+}
+
+.nav > a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.nav > img{
+  width: auto;
+  height: 30px;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  left: 0px;
+}
+
+.sectionBreak{
+  width: 100%;
+  height: 3%;
+  background: rgb(23,34,40);
+  outline: 2px dotted red;
+}
+
+.pageSection{
+  margin: 0px;
+  width: 100%;
+  height: 20%;
+}
+.pageImageSection{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#pageSectionOne{
+  background: rgb(23,34,50);
+}
+
+#pageSectionTwo{
+  background: rgb(23,24,40);
+}
+
+#pageSectionThree{
+  background: rgb(23,14,30);
+}
+
+#pageSectionFour{
+  background: rgb(23, 4,20);
+}
+
+#pageImageOne{
+  background-image: url(../images/pageImageOne.jpg);
+  background-attachment: fixed;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#pageImageTwo{
+  background-image: url(../images/pageImageTwo.jpg);
+  background-attachment: fixed;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#pageImageThree{
+  background-image: url(../images/pageImageThree.jpg);
+  background-attachment: fixed;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#pageImageFour{
+  background-image: url(../images/spaceHWB.jpg);
+  background-attachment: fixed;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/*************************
+___CONTACT SECTION CSS__
+*************************/
+
+.contactSection{
+  outline: 1px dotted lime;
+}

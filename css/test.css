@@ -1,0 +1,137 @@
+*{
+  /*outline: 2px solid red;*/
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  height: 2000px;;
+}
+
+.contentContainer{
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/spaceHWBCD.jpg);
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 150% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 0px;
+}
+
+#logo{
+  transition: all .4s ease-in-out;
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 13%;
+  position: fixed;
+  top: -15%;
+}
+
+#logo.scrolling{
+  opacity: .8;
+  transition: all .4s ease-in-out;
+  width: 10%;
+  height: auto;
+  position: fixed;
+  top: 0px;
+}
+
+.nav{
+  position: fixed;
+  bottom: 0px;
+  /*position: absolute;
+  bottom: 0px;*/
+  width: 100%;
+  height: 30px;
+  background: rgba(0, 0, 0, .6);
+  /*background: rgba(23,34,50, .7);*/
+  text-align: center;
+  padding: 5px;
+}
+
+.nav > a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.sectionBreak{
+  width: 100%;
+  height: 3%;
+  background: rgb(23,34,40);
+  outline: 2px dotted red;
+}
+
+.pageSection{
+  margin: 0px;
+  width: 100%;
+  height: 20%;
+}
+.pageImageSection{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#pageSectionOne{
+  background: rgb(23,34,50);
+}
+
+#pageSectionTwo{
+  background: rgb(23,24,40);
+}
+
+#pageSectionThree{
+  background: rgb(23,14,30);
+}
+
+#pageSectionFour{
+  background: rgb(23, 4,20);
+}
+
+#pageImageOne{
+  background-image: url(../images/pageImageOne.jpg);
+  background-attachment: fixed;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#pageImageTwo{
+  background-image: url(../images/pageImageTwo.jpg);
+  background-attachment: fixed;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#pageImageThree{
+  background-image: url(../images/pageImageThree.jpg);
+  background-attachment: fixed;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#pageImageFour{
+  background-image: url(../images/spaceHWB.jpg);
+  background-attachment: fixed;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
